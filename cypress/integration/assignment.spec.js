@@ -8,7 +8,7 @@ beforeEach(() => {
     basePage.goToCareersTab()
   })
 
-describe('Assesment', () => {
+describe('Assignment Scenarios', () => {
     it('User should see only one "QA Automation Engineer" position in open positions on Career tab', () => {
         var foundOpenPositionCounter = 0;
 
